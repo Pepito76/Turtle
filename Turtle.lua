@@ -35,6 +35,11 @@ addCraftMethod( env )
 
 local facing = 0
 local pos = {x = 0, y = 0, z = 0}
+local version = 0.0.1
+
+function getVersion()
+	return version
+end
 
 function getPos()
 	return {x = pos.x, y = pos.y, z = pos.z}
